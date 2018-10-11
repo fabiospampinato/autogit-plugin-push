@@ -11,9 +11,9 @@ const defaultOptions = {
   branch: ''
 };
 
-function factory ( options? ) {
+function factory ( customOptions?: Partial<typeof defaultOptions> ) {
 
-  options = Object.assign ( {}, defaultOptions, options );
+  const options = Object.assign ( {}, defaultOptions, customOptions );
 
   return async function push ( config, repoPath, ctx, task ) {
 
