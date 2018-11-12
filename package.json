@@ -1,7 +1,7 @@
 {
   "name": "autogit-plugin-push",
   "description": "A plugin for pushing to a remote.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
